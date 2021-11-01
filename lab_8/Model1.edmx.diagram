@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72825cf7784b4edd8492ca0bd2dd2e2d" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="karalashModel.Answer" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Coach" Width="1.5" PointX="1.5" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Material" Width="1.5" PointX="3.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Module" Width="1.5" PointX="1.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Result" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Retake_Result" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Student" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Students_List" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Test" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Training" Width="1.5" PointX="1.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.Trigger_Result" Width="1.5" PointX="7.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="karalashModel.database_firewall_rules" Width="1.5" PointX="8.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="karalashModel.Answer_Result_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Training_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Material_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Module_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Test_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Retake_Result_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Student_Result_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Test_Result_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Students_List_ByStudent_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="karalashModel.Students_List_ByTraining_FK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
